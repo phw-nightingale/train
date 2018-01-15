@@ -1,0 +1,1 @@
+yii message @app/language/config.php

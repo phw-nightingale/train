@@ -1,0 +1,25 @@
+body,html{ height:100%; width: 100%; margin:0px; padding:0px;}
+
+#plugHelp{ height: 25px; overflow: hidden;display: block; margin-bottom: 10px;}
+#plugHelp>i:hover{ color: #0f9ae0; cursor: pointer;}
+
+.disabled-input{ background-color: #eee;}
+.disabled-input:hover{ cursor: no-drop !important;}
+.disabled:hover{ cursor: no-drop !important;}
+/*button[class="disabled"]{ border: 1px #000 solid;}*/
+
+.hide-input{ height:0px; width: 0px; overflow: hidden; display: none; visibility: hidden;}
+
+/**
+    图片上传
+ */
+#upImgBtn{ border: 1px #dadada solid; width:800px; height: 300px; cursor: pointer; line-height: 300px; text-align: center;}
+#upImgBtn:hover{ color:red; border: 1px red solid;}
+#upImgBtn img{ width:100px; height:100px; float: left; display: block; margin: 10px; border: 1px #d2d2d2 solid;}
+#upImg{ display: none;}
+
+/* 文本域 */
+.textarea-box textarea{ padding-bottom: 30px;}
+.textarea-box{ position: relative;}
+.textarea-box >.text-num{ position: absolute; right: 25px; bottom: 5px;}
+.textarea-box >.text-num >i{ font-style: normal;}
